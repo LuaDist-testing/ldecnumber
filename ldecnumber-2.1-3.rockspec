@@ -1,26 +1,27 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "ldecnumber"
-version = "2.1-1"
+version = "2.1-3"
 -- LuaDist source
 source = {
-  tag = "2.1-1",
+  tag = "2.1-3",
   url = "git://github.com/LuaDist-testing/ldecnumber.git"
 }
 -- Original source
 -- source = {
--- 	url = "http://luaforge.net/frs/download.php/2551/ldecNumber-21.tar.gz"
+-- 	url = "https://chiselapp.com/user/e/repository/ldecNumber/zip/ldecNumber_fsl21.zip?uuid=fsl21",
+-- 	file = "ldecNumber_fsl21.zip"
 -- }
 description = {
 	summary = "Lua decNumber, a Lua 5.1 wrapper for IBM decNumber",
 	detailed = [[
 Lua decNumber, a Lua 5.1 wrapper for IBM decNumber, implements the proposed General Decimal Arithmetic standard IEEE 754r. It has the Lua 5.1 arithmetic operators and more, full control over rounding modes, and working precision up to 69 decimal digits.		
 	]],
-	homepage = "http://luaforge.net/projects/ldecnumber/",
+	homepage = "https://chiselapp.com/user/e/repository/ldecNumber",
 	license = "MIT/X11"
 }
 dependencies = {
-	"lua >= 5.1"
+	"lua >= 5.1, < 5.2"
 }
 build = {
 	type = "builtin",
